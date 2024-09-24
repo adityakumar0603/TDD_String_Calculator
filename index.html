@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+"width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="img/incubytejpeg.jpeg">
+	<link rel="stylesheet" href="css/style.css">
+	<title>String Calculator</title>
+</head>
+
+<body>
+	<div id="app">
+		<header>
+            <h1><img src=
+                "img/incubytejpeg.jpeg" width = 100 height =100></h1>
+			<h1>
+				Incubyte
+			</h1>
+			<h1>
+				TDD String Calculator
+			</h1>
+		</header>
+		<main>
+			<div id="content">
+                <form>
+                    <label for="string">Enter String:</label>
+                    <input type="text" id="stringie" name="string"><br><br>
+                    <button type="button" onclick="add(document.getElementById('stringie').value)">Calculate</button><br><br>
+                    <label for="string">Result:</label>
+                    <input type="text" id="result" name="result" readonly><br>
+                  </form>
+			</div>
+		</main>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
